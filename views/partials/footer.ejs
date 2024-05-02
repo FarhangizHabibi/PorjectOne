@@ -1,18 +1,37 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <style>
+      /* CSS for responsiveness */
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .about {
+        margin: 0;
+        font-size: 14px;
+      }
+
+      /* Media query for smaller screens */
+      @media screen and (max-width: 768px) {
+        .about {
+          font-size: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
     <footer>
-       
-        <p class="about"> © <span id="currentYear"></span> Blog. All rights reserved.</p> 
+      <p class="about">
+        © <span id="currentYear"></span> Blog. All rights reserved.
+      </p>
     </footer>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
-
-
