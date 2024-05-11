@@ -1,13 +1,13 @@
 {
-  "name": "capstoneprojectassignment",
+  "name": "ProjectOne",
   "version": "1.0.0",
-  "description": "Afghan Blogs Dream Hub",
+  "description": "The best block Afghan food",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "AzadehAhmadi",
+  "author": "Farhangiz",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
